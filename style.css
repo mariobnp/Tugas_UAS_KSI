@@ -1,0 +1,290 @@
+:root {
+    --putih: #edeef0;
+    --oren: #f7b320;
+    --hitam: #000;
+}
+
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    min-height: 900px;
+}
+
+.btn-jelajah :hover {
+    color:#e6b925;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/IMG-20240105-WA0016.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+.hero {
+    min-height: 100vh;
+}
+
+.hero h1 {
+    font-family: 'Diphylleia', serif;
+    color: #e6b925;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: #000;
+}
+
+.hero h4 {
+    color: var(--putih);
+}
+
+.hero a {
+    color: var(--putih);
+}
+
+.navbar-brand {
+    color: #e6b925;
+    font-family: 'Diphylleia', serif;
+}
+
+
+.container-img-home-value {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.img-homepage {
+    width: 85%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter:sepia(50%);  
+}
+
+.img-home1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 10px;
+}
+
+.container-img-home-value h3 {
+    margin-top: 10px;
+}
+
+.subtitel-home {
+    margin: auto;
+}
+
+.img-carousel {
+    width: auto;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    filter:blur(2px);
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.subtitel {
+    text-align: center;
+    font-family: 'Diphylleia', serif;
+    color: #e6b925;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.img-team {
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-about-sejarah {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.img-about1 {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+
+}
+
+.sub-sejarah {
+    font-family: 'Diphylleia', serif;
+    margin-bottom: 20px;
+}
+
+.container-about-tiket {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.img-tiket {
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sub-tiket {
+    font-family: 'Diphylleia', serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.container-about-jam {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.img-jam {
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.sub-jam {
+    font-family: 'Diphylleia', serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.container-maps {
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.sub-maps {
+    font-family: 'Diphylleia', serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.hr-maps {
+    align-items: center;
+    width: 100%;
+}
+
+.container-about-documentasi {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.img-doc {
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.container-about-documentasi {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sub-doc {
+    font-family: 'Diphylleia', serif;
+    color: #e6b925;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-doc {
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#searchResults {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Laptop */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 100%;
+        background-image: url(img/IMG-20240105-WA0016.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
+    
+}
